@@ -5,3 +5,7 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Location.create({ name: "Bob's House", description: "A fine old house. Mostly cobble.", latitude: "15", longitude: "-100"})
+Location.create({ name: "Spawn", description: "One of the finest spawns known to man.", latitude: "0", longitude: "0"})
+Location.create({ name: "Alice's Castle", description: "Mostly netherbrick and iron fence. Nice garden.", latitude: "45", longitude: "50"})
